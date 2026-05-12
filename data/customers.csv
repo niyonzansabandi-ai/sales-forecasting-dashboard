@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,city,state,signup_date
+1,John,Doe,Boise,ID,2023-01-15
+2,Sarah,Smith,Meridian,ID,2023-02-10
+3,Michael,Brown,Nampa,ID,2023-03-05
+4,Emily,Johnson,Caldwell,ID,2023-04-22
+5,David,Williams,Eagle,ID,2023-05-18
+6,Ashley,Martinez,Boise,ID,2023-06-01
+7,Robert,Garcia,Meridian,ID,2023-06-12
+8,Jessica,Miller,Nampa,ID,2023-06-20
+9,Daniel,Davis,Caldwell,ID,2023-07-02
+10,Amanda,Lopez,Eagle,ID,2023-07-15
