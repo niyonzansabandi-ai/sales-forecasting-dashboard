@@ -19,7 +19,7 @@ sales-forecasting-dashboard
 │
 ├── data/                 # Raw datasets (customers, orders, products)
 ├── images/               # Visuals for README and documentation
-├── notebooks/            # Python EDA notebook
+├── notebooks/            # Python EDA notebook (.ipynb)
 ├── Powerbi/              # Power BI dashboard (.pbix)
 ├── Sql/                  # SQL scripts for cleaning and analysis
 └── README.md
@@ -56,7 +56,7 @@ These insights help identify performance drivers and business opportunities.
 ---
 
 ## 🐍 Python Analysis Notebook  
-Located in:
+Located at:
 
 ```
 notebooks/sales_forecasting_analysis.ipynb
@@ -78,47 +78,22 @@ This notebook supports the SQL analysis and Power BI dashboard, forming the anal
 ---
 
 ## 📊 Power BI Dashboard  
-The interactive dashboard includes:
 
-- Sales overview  
-- Revenue trends  
-- Product category insights  
-- Top‑performing products  
-- Regional performance  
-
-Designed for business users to explore insights intuitively.
+### Retail Sales Dashboard  
+![Retail Sales Dashboard](images/retail-sales-dashboard.png)
 
 ---
 
-## 🛠 How to Run This Project
+## 🐍 Python Notebook Output  
+The full analysis is available in the notebook:
 
-### **1. Clone the repository**
-```
-git clone https://github.com/niyonzansabandi-ai/sales-forecasting-dashboard.git
-cd sales-forecasting-dashboard
-```
+`notebooks/sales_forecasting_analysis.ipynb`
 
-### **2. Run SQL scripts**
-Open the `Sql/` folder and run any `.sql` script using SQLite, DBeaver, or VS Code SQL extensions.
-
-### **3. Run the Python notebook**
-Open:
-```
-notebooks/sales_forecasting_analysis.ipynb
-```
-Run it using Jupyter, VS Code, or any notebook environment.
-
-### **4. Open the Power BI dashboard**
-Located in:
-```
-Powerbi/retail_sales_dashboard.pbix
-```
-Requires **Power BI Desktop**.
+(No screenshot needed — the `.ipynb` file contains all outputs.)
 
 ---
 
-## 📁 Dataset Description
-
+## 📁 Dataset Description  
 The project uses three core CSV files located in the `data/` folder:
 
 - **customers.csv** — customer IDs, names, locations  
@@ -129,15 +104,30 @@ These files are merged in the Python notebook to calculate revenue and generate 
 
 ---
 
-## 📸 Screenshots
+## 🛠 How to Run This Project
 
-### Power BI Dashboard  
-*(Add your real screenshot later)*  
-![Dashboard Screenshot](images/dashboard_placeholder.png)
+### 1. Clone the repository
+```
+git clone https://github.com/niyonzansabandi-ai/sales-forecasting-dashboard.git
+cd sales-forecasting-dashboard
+```
 
-### Python Notebook Output  
-*(Add your real screenshot later)*  
-![Notebook Screenshot](images/notebook_placeholder.png)
+### 2. Run SQL scripts  
+Open the `Sql/` folder and run any `.sql` script using SQLite, DBeaver, or VS Code SQL extensions.
+
+### 3. Run the Python notebook  
+Open:
+```
+notebooks/sales_forecasting_analysis.ipynb
+```
+Run it using Jupyter, VS Code, or any notebook environment.
+
+### 4. Open the Power BI dashboard  
+Located in:
+```
+Powerbi/retail_sales_dashboard.pbix
+```
+Requires **Power BI Desktop**.
 
 ---
 
