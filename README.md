@@ -1,5 +1,5 @@
 # 📊 Sales Forecasting Dashboard  
-End‑to‑end retail sales analysis using **Python**, **SQL**, and **Power BI**.to forecast sales trends.
+End‑to‑end retail sales analysis using **Python**, **SQL**, and **Power BI** to forecast sales trends.
 
 ## 🚀 Project Overview  
 This project demonstrates a complete analytics workflow for understanding retail sales performance.  
